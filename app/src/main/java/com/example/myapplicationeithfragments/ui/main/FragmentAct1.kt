@@ -9,10 +9,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.myapplicationeithfragments.R
 
 
-class MainFragment : Fragment() {
+class FragmentAct1 : Fragment() {
 
     companion object {
-        fun newInstance() = MainFragment()
+        fun newInstance() = FragmentAct1()
     }
 
     private lateinit var viewModel: MainViewModel
@@ -22,7 +22,7 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        return inflater.inflate(R.layout.main_fragment, container, false)
+        return inflater.inflate(R.layout.main_fragment_Act1, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

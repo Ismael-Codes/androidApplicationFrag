@@ -9,6 +9,33 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+
+        android:gravity="center_horizontal|center_vertical|end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLista"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text=""
+            app:icon="?attr/actionModeCloseDrawable"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/btnMn2"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Menu"
+            app:icon="@android:drawable/ic_menu_save"
+            tools:layout_editor_absoluteX="310dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </LinearLayout>
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="com.example.myapplicationeithfragments.ui.main.fragmentLetraA1"

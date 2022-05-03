@@ -2,7 +2,6 @@ package com.example.myapplicationeithfragments
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.myapplicationeithfragments.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
