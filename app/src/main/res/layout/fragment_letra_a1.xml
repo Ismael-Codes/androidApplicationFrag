@@ -78,18 +78,6 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/Acp01"
-        android:layout_width="350dp"
-        android:layout_height="55dp"
-        android:text="Aceptar"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="585dp" />
 
-    <Button
-        android:id="@+id/Sig01"
-        android:layout_width="350dp"
-        android:layout_height="55dp"
-        android:text="Siguiente" />
 
 </LinearLayout>
