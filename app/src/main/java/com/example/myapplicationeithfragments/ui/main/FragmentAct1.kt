@@ -22,7 +22,7 @@ class FragmentAct1 : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        return inflater.inflate(R.layout.main_fragment_Act1, container, false)
+        return inflater.inflate(R.layout.fragment_act_1, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
