@@ -26,6 +26,7 @@ public class FragmentAct3 extends Fragment {
     private String mParam1;
     private String mParam2;
 
+
     public FragmentAct3() {
         // Required empty public constructor
     }
